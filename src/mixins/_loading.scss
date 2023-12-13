@@ -1,0 +1,15 @@
+@import "colours";
+
+@mixin common-loading-screen {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+	.retry-link {
+		cursor: pointer;
+		color: $highlight;
+	}
+}
